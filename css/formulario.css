@@ -1,0 +1,50 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-size: 30px;
+}
+body {
+    height: 100vh;
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    height: 180px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    padding-bottom: 1px;
+    outline: none;
+}
+
+
+#registrarse {
+border: 3px solid;
+border-radius: 10px;
+padding: 10px;
+
+
+}
+
+#registrarse:hover{
+    background-color: bisque;
+    color: aqua;
+}
+
